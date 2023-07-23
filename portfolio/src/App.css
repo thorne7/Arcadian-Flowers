@@ -1,25 +1,108 @@
-/* components/App.css */
-
-/* Global styles for the body element */
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-color: #CAD2C5;
+  color: #2F3E46;
 }
 
-/* Styles for the header */
+/* Header styles */
 .header {
-  background-color: #333;
-  color: #fff;
+  background-color: #52796F;
+  color: #CAD2C5;
   padding: 10px;
   text-align: center;
 }
 
-/* Styles for the footer */
-.footer {
-  background-color: #333;
-  color: #fff;
+.header h1 {
+  margin: 0;
+}
+
+.navflex {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navflex li {
+  margin: 0 10px;
+}
+
+.navflex a {
+  color: #CAD2C5;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navflex a:hover {
+  background-color: #84A98C;
+  border-radius: 5px;
+}
+
+/* Page content styles */
+main {
+  padding: 20px;
+}
+
+.about-me {
+  margin: 20px 0;
+}
+
+.about-me h2 {
+  color: #52796F;
+}
+
+.portfolio h3 {
+  color: #52796F;
+}
+
+.portfolio .proj1,
+.portfolio .proj2 {
+  margin-bottom: 20px;
+}
+
+.portfolio img {
+  width: 100%;
+  height: auto;
+}
+
+.project-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.contact-me h4 {
+  color: #52796F;
+}
+
+.contact-me .contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-me .contact li {
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #2F3E46;
+  color: #CAD2C5;
   padding: 10px;
   text-align: center;
 }
 
-/* Other global styles... */
+footer p {
+  margin: 0;
+}
+
+/* Add more styles for other components as needed */
+
