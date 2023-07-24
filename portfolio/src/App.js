@@ -15,12 +15,14 @@ const App = () => {
     <Router>
       <div className="App">
         <Header />
+        <div className="main-content"> {/* Add the "main-content" class */}
         <Routes>
           <Route path="/about" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
+        </div>
         <Footer />
       </div>
     </Router>

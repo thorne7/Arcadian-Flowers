@@ -1,7 +1,6 @@
 import React from 'react';
 import {
-  Card,
-  Button
+  Card
 } from 'react-bootstrap';
 import project1img from '../assets/image1.JPG';
 import project2img from '../assets/image2.png';

@@ -7,6 +7,10 @@ body {
   color: #2F3E46;
 }
 
+.main-content {
+  margin-bottom: 50px;
+}
+
 /* Header styles */
 .header {
   background-color: #52796F;
@@ -104,5 +108,4 @@ footer p {
   margin: 0;
 }
 
-/* Add more styles for other components as needed */
 

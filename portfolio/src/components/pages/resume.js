@@ -1,14 +1,34 @@
 import React from 'react';
-import '../style/resume.css';
 
 const Resume = () => {
+  const proficiencies = [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "HTML",
+    "CSS",
+    "MongoDB",
+    "Express.js",
+    "RESTful APIs",
+    "Git",
+    "Responsive Web Design",
+  ];
+
+  const getRandomProficiency = () => {
+    return proficiencies[Math.floor(Math.random() * proficiencies.length)];
+  };
+
   return (
     <div className="resume">
       <h4>Resume</h4>
       <nav className="proficiencies">
         <ul>
-          <li>Proficiency 1</li>
-          <li>Proficiency 2</li>
+          <li>{getRandomProficiency()}</li>
+          <li>{getRandomProficiency()}</li>
+          <li>{getRandomProficiency()}</li>
+          <li>{getRandomProficiency()}</li>
+          <li>{getRandomProficiency()}</li>
+          {/* Add more proficiencies or details from your resume */}
         </ul>
       </nav>
       <a href="/path/to/your/resume.pdf" download>
