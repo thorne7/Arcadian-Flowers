@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/resume.css';
 
 const Resume = () => {
   return (
@@ -8,10 +9,11 @@ const Resume = () => {
         <ul>
           <li>Proficiency 1</li>
           <li>Proficiency 2</li>
-          {/* Add more proficiencies or details from your resume */}
         </ul>
       </nav>
-      {/* Add a link to download your resume file if available */}
+      <a href="/path/to/your/resume.pdf" download>
+        Download Resume
+      </a>
     </div>
   );
 }

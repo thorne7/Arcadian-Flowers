@@ -1,0 +1,7 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Add any other styling specific to the AboutMe page */
+}

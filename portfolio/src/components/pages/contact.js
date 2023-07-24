@@ -1,8 +1,8 @@
 import React from 'react';
-
+import '../style/contact.css';
 const Contact = () => {
   return (
-    <div className="contact-me">
+    <div className="contact">
       <h4>Contact Me</h4>
       <nav className="contact">
         <ul>
@@ -10,10 +10,8 @@ const Contact = () => {
           <li>
             Github: <a href="https://github.com/your-github-username">Github Profile</a>
           </li>
-          {/* Add more contact information or links */}
         </ul>
       </nav>
-      {/* Add a contact form with fields for name, email, and message if needed */}
     </div>
   );
 }
